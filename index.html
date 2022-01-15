@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVROCK PODCAST</title>
+
+    <meta name="description" content="Nunca Quise" />
+    <meta name="keywords" content="Intoxicados, musica, letra, mp3" />
+    <meta name="author" content="Diego GK" />
+    <meta name="copyright" content="Diego GK" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- ROBOTS -->
+    <meta name="robots" content="index follow" />
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- FACEBOOK -->
+    <meta property="og:type" content="music.song" />
+    <meta property="og:title" content="Nunca Quise - Intoxicados" />
+    <meta property="og:description" content="Un gran tema de inxicados para pasar el rato" />
+    <meta property="og:image" content="images/tapadisco.jpg" />
+    <meta property="og:audio" content="audio/NuncaQuise.mp3" />
+
+    <!-- TWITTER -->
+    <meta property="twitter:type" content="music.song" />
+    <meta property="twitter:title" content="Nunca Quise - Intoxicados" />
+    <meta property="twitter:description" content="Un gran tema de inxicados para pasar el rato" />
+    <meta property="twitter:image" content="images/tapadisco.jpg" />
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #E5E5E5;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 50px;
+            font-weight: 500;
+        }
+
+        header div {
+            display: inline-block;
+            margin-left: 20px;
+            position: relative;
+        }
+
+        header div h1 {
+            font-size: 30px;
+        }
+
+        section div h3 {
+            text-align: center;
+            color: gray;
+        }
+
+        #tapadisco {
+            height: 250px;
+            vertical-align: middle;
+        }
+
+        #reproductor {
+            padding: 20px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+            background: #DEDEDE;
+        }
+
+        #controles {
+            margin: 0 auto;
+            display: block;
+        }
+
+        #datos {
+            font-size: 14px;
+            line-height: 5px;
+        }
+
+        section div p {
+            font-size: 15px;
+            text-align: center;
+            line-height: 25px;
+        }
+
+        #estribillo {
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        footer {
+            padding: 40px;
+        }
+
+        footer p {
+            text-align: center;
+            font-size: 15px;
+            font-weight: 400;
+            color: rgb(255, 0, 157);
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/tapadisco.jpg" alt="Otro dia en el planeta tierra" id="tapadisco">
+        <div itemscope itemtype="https://schema.org/MusicRecording">
+            <H1>NUNCA QUISE</H1>
+            <p id="datos">Autor: <span itemprop=”byArtist”>Intoxicados</span>
+            <p id="datos">Album: <span itemprop=”inAlbum”>Otro día en el planeta tierra</span>
+            <p id="datos">Publicado: <span itemprop=”dateCreated”>Año 2015</span>
+            <p id="datos">Duración: <span itemprop=”duration”>3:48 minutos</span>
+        </div>
+    </header>
+    <section>
+        <div id="reproductor">
+            <audio src="audio/NuncaQuise.mp3" preload="auto" controls id="controles"></audio>
+        </div>
+        <div>
+            <h3>🎵 LETRA 🎵</h3>
+            <p>
+                <span itemprop="description">
+                    <p>Nunca quise tanto a nadie como a vos<br>
+                        Por eso es que empiezo a dudar<br>
+                        Si seremos hermanos que nos separaron<br>
+                        Y nosotros sin saberlo nos volvimos a juntar</p>
+
+                    <p>Tu sangre es roja<br>
+                        La mía también creo no me equivoco<br>
+                        Algo tendremos que ver<br>
+                        Somos indios latinos con guitarra eléctrica<br>
+                        Y comunicados a través de internet</p>
+
+                    <p>Para odiar hay que querer<br>
+                        Para destruir hay que hacer<br>
+                        Y estoy orgulloso de quererte romper<br>
+                        La cabeza contra la pared</p>
+
+                    <p>Y por todas esas cosas que tenemos en común<br>
+                        Hace tiempo ya marchaste de acá<br>
+                        Te cansaste de mí, yo me cansé de vos<br>
+                        Pero cuando nos miramos sabemos que no es verdad</p>
+
+                    <p>Porque tanto te quise y tanto te quiero<br>
+                        Siempre una marca tuya llevará mi corazón<br>
+                        Disculpá si te parece raro<br>
+                        Pero comparto la opinión que escuché en una canción</p>
+
+                    <p>Si la amas déjala ser, si la quieres déjala volar<br>
+                        Nunca fui tu patrón, no quisiera cambiarte<br>
+                        Y no quiero que pierdas tu personalidad</p>
+
+                    <p>Para odiar hay que querer<br>
+                        Para destruir hay que hacer<br>
+                        Y estoy orgulloso de quererte romper<br>
+                        La cabeza contra la pared</p>
+
+                    <p id="estribillo">Para odiar hay que querer<br>
+                        Para destruir hay que hacer<br>
+                        Y estoy orgulloso de quererte romper<br>
+                        La cabeza contra la pared</p>
+
+                    <p id="estribillo">Para dejar hay que beber<br>
+                        Para morir primero hay que nacer<br>
+                        Siento ganas nuevamente de tirarme a tus pies<br>
+                        Y llevarte a mi morada otra vez</p>
+
+                    <p>Si lo sembrás, lo recogés<br>
+                        Y si esperás, vas a entender<br>
+                        Cuando las cosas salen como no las espero<br>
+                        La vida me hace más guerrero</p>
+                </span>
+            </p>
+        </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>Reto Semana 01</p>
+        <p>SUMMERHACK 2020</p>
+        <p>EscuelaDevRock</p>
+    </footer>
+
+</body>
+
+
+</html>
